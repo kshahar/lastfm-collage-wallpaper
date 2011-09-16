@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string-array name="imageKind">
+		<item>Top Artists</item>
+		<item>Top Albums</item>
+	</string-array>
+
+	<string-array name="imageKindValues">
+		<item>ARTISTS</item>
+		<item>ALBUMS</item>
+	</string-array>
+
+	<string-array name="timePeriod">
+		<item>Overall</item>
+		<item>7 days</item>
+        <item>3 months</item>
+        <item>6 months</item>
+        <item>12 months</item>
+	</string-array>
+	
+	<string-array name="timePeriodValues">
+		<item>OVERALL</item>
+		<item>SEVEN_DAYS</item>
+        <item>THREE_MONTHS</item>
+        <item>SIX_MONTHS</item>
+        <item>TWELVE_MONTHS</item>
+	</string-array>
+
+    <string-array name="downloadLimit">
+		<item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+
+</resources>

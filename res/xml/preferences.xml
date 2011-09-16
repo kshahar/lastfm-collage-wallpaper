@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+            android:key="lastfm_username"
+            android:title="Last.fm username"
+            android:defaultValue=""
+            />
+
+    <ListPreference
+            android:key="image_kind"
+            android:title="@string/image_kind"
+            android:defaultValue="ALBUMS"
+            android:entries="@array/imageKind"
+            android:entryValues="@array/imageKindValues"
+            />
+
+    <ListPreference
+            android:key="time_period"
+            android:title="@string/time_period"
+            android:defaultValue="OVERALL"
+            android:entries="@array/timePeriod"
+            android:entryValues="@array/timePeriodValues"
+            />
+
+    <ListPreference
+            android:key="download_limit"
+            android:title="@string/download_limit"
+            android:summary="@string/download_limit_summary"
+            android:defaultValue="30"
+            android:entries="@array/downloadLimit"
+            android:entryValues="@array/downloadLimit"
+            />
+
+    <PreferenceScreen
+            android:key="second_preferencescreen"
+            android:title="@string/advanced_settings">
+        <CheckBoxPreference android:key="acra.enable"
+            android:title="@string/pref_enable_acra"
+            android:summary="@string/pref_acra_summary"
+            android:defaultValue="true"
+            />
+    </PreferenceScreen>
+
+    <Preference
+            android:key="regenerate_now"
+            android:title="@string/generate_now"
+            />
+
+</PreferenceScreen>
